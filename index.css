@@ -1,0 +1,75 @@
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.backgroundprimary {
+	background-color: #023038;
+	background-image: url(./Images/profile.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center top;
+}
+
+h1 {
+	font-family: 'League Spartan', sans-serif;
+	font-weight: 600;
+	font-size: 4em;
+	letter-spacing: 3px;
+	color: #F1F1E6;
+}
+
+nav {
+	font-family: 'League Spartan', sans-serif;
+	color: #F1F1E6;
+	font-size: 1.5em;
+}
+
+.line {
+	position: absolute;
+	margin: auto;
+	height: 10px;
+	background: #FFB15B;
+	width: 3rem;
+	top: 10rem;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #F1F1E6;
+}
+
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #F1F1E6;
+}
+
+a {
+	color: #FFB15B;
+}
+
+.orange {
+	color: #FFB15B;
+}
+
+.offwhite {
+	color: #F1F1E6;
+}
+
+.containerheight {
+	height: 50%;
+	width: 100%;
+}
+
+button {
+	color: #023038;
+	background-color: #FFB15B;
+	border-radius: 35px;
+	padding: 1rem;
+}
