@@ -24,7 +24,7 @@ h1 {
 
 nav {
 	font-family: 'League Spartan', sans-serif;
-	color: #F1F1E6;
+	/*color: #F1F1E6;*/
 	font-size: 1.5em;
 }
 
@@ -35,6 +35,12 @@ nav {
 	background: #FFB15B;
 	width: 3rem;
 	top: 10rem;
+	border-radius: 25px;
+}
+
+h2, h4 {
+	font-family: 'League Spartan', sans-serif;
+	font-size: 2em;
 }
 
 h3 {
@@ -50,8 +56,9 @@ h5 {
 	color: #F1F1E6;
 }
 
-a {
-	color: #FFB15B;
+.navbar-brand {
+	/*color: #FFB15B;*/
+	font-size: 1.5em;
 }
 
 .orange {
@@ -72,4 +79,42 @@ button {
 	background-color: #FFB15B;
 	border-radius: 35px;
 	padding: 1rem;
+}
+
+.darkbg {
+	background-color: #022C33;
+	background-size: 100%;
+}
+
+p, form {
+	font-family: 'Roboto', sans-serif;
+	color: #F1F1E6;
+	font-size: 1.2rem;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.nav-item {
+	font-family: 'League Spartan', sans-serif;
+	color: #F1F1E6;
+	font-size: 1.8rem;
+}
+
+.arrow {
+  border: solid #FFB15B;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.center {
+	margin: auto;
 }
